@@ -1,0 +1,53 @@
+body {
+     background-color: #db5b5b;
+     box-sizing: border-box;
+     transition: 1s;
+}
+
+main {
+     width: 500px;
+     background-color: rgba(216, 197, 197, 0.4);
+     margin: 120px auto 0;
+     border-radius: 10px;
+}
+
+.buttons {
+     display: flex;
+     justify-content: center;
+}
+
+.clock button {
+     font-size: 18px;
+     margin: 15px 8px;
+     background-color: rgba(160, 152, 152, 0.4);
+     border: none;
+     color: white;
+     padding: 6px 8px;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+#timer {
+     color: white;
+     font-size: 90px;
+     display: flex;
+     justify-content: center;
+     margin: 40px 0;
+}
+
+.countdown button {
+     font-size: 22px;
+     margin: 20px 8px;
+     border: grey;
+     border-radius: 6px;
+     padding: 4px 9px;
+     width: 130px;
+     color: rgb(126, 114, 114);
+     cursor: pointer;
+     transition: 0.2s;
+} 
+
+.countdown button:active {
+     background-color: red;
+     color: rgb(82, 82, 201);
+}
